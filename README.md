@@ -1,7 +1,6 @@
 
 ### 📄 `README.md`
 
-````markdown
 # 🚀 Codezy - Online Code Compiler
 
 Codezy is a powerful, full-stack online code compiler inspired by platforms like CodeChef IDE.
@@ -30,9 +29,14 @@ The app supports authentication, theme toggle, and a modern, clean UI.
 - **GitHub** – version control & CI
 
 ---
+<img width="1440" alt="Screenshot 2025-05-30 at 9 41 11 AM" src="https://github.com/user-attachments/assets/f1e3d4e4-fc25-4f95-bf15-01c446a20e1e" />
 
-## 📸 Screenshots
-<img width="1440" alt="Screenshot 2025-05-30 at 9 41 11 AM" src="https://github.com/user-attachments/assets/7a1a467b-825a-4c7f-8efd-62e8170ea1e4" />
+---
+
+
+https://github.com/user-attachments/assets/84a3679f-29da-488c-88d1-6035358db4bc
+
+
 
 
 ---
@@ -106,9 +110,3 @@ GitHub: [@yuv5120](https://github.com/yuv5120)
 
 ⭐ Star this repository if you like the project!
 
-```
-
----
-
-Let me know once you're ready with the screenshots and video — I’ll help you embed them properly into the README.
-```
