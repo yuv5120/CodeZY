@@ -10,11 +10,11 @@ Codezy is a powerful code compiler platform. It allows users to write, run, and 
 - **React Native (Expo)**
 - **TypeScript**
 
-### Backend & API (Next.js):
-- **Next.js 15 API Routes**
+### Backend & API:
+- **Node.js (Express)**
 - **MongoDB Atlas**
 - **Mongoose**
-- **NextAuth.js**
+- **JWT Auth (Mocked)**
 
 ### Code Execution:
 - **Judge0 API**
