@@ -72,7 +72,7 @@ export default function App() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <StatusBar barStyle="light-content" />
+      <StatusBar barStyle="dark-content" />
       
       {/* Header */}
       <View style={styles.header}>
@@ -157,7 +157,7 @@ export default function App() {
             value={input}
             onChangeText={setInput}
             placeholder="Enter custom input here..."
-            placeholderTextColor="#666"
+            placeholderTextColor="#999"
             autoCapitalize="none"
           />
         )}
@@ -175,7 +175,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0F172A', // Slate 900
+    backgroundColor: '#F0F8FF', // Alice Blue
   },
   header: {
     flexDirection: 'row',
@@ -188,22 +188,22 @@ const styles = StyleSheet.create({
   logo: {
     fontSize: 28,
     fontWeight: '800',
-    color: '#38BDF8', // Sky 400
+    color: '#0056b3', // Dark solid blue
     letterSpacing: 0.5,
   },
   subtitle: {
     fontSize: 12,
-    color: '#94A3B8', // Slate 400
+    color: '#004085', // Dark navy blue
     marginTop: -2,
   },
   runButton: {
     flexDirection: 'row',
-    backgroundColor: '#10B981', // Emerald 500
+    backgroundColor: '#007AFF', // Solid iOS Blue
     paddingHorizontal: 16,
     paddingVertical: 10,
     borderRadius: 20,
     alignItems: 'center',
-    shadowColor: '#10B981',
+    shadowColor: '#007AFF',
     shadowOffset: { width: 0, height: 4 },
     shadowOpacity: 0.3,
     shadowRadius: 5,
@@ -219,24 +219,24 @@ const styles = StyleSheet.create({
     marginBottom: 15,
   },
   langBadge: {
-    backgroundColor: '#1E293B',
+    backgroundColor: '#E6F2FF',
     paddingHorizontal: 16,
     paddingVertical: 8,
     borderRadius: 12,
     marginRight: 10,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: '#B3D4FF',
   },
   langBadgeActive: {
-    backgroundColor: '#38BDF8',
-    borderColor: '#38BDF8',
+    backgroundColor: '#007AFF',
+    borderColor: '#007AFF',
   },
   langText: {
-    color: '#94A3B8',
+    color: '#0056b3',
     fontWeight: '600',
   },
   langTextActive: {
-    color: '#0F172A',
+    color: '#FFF',
     fontWeight: '700',
   },
   tabsContainer: {
@@ -250,15 +250,15 @@ const styles = StyleSheet.create({
   },
   tabActive: {
     borderBottomWidth: 3,
-    borderBottomColor: '#38BDF8',
+    borderBottomColor: '#007AFF',
   },
   tabText: {
-    color: '#64748B',
+    color: '#6699CC',
     fontSize: 16,
     fontWeight: '600',
   },
   tabTextActive: {
-    color: '#F8FAFC',
+    color: '#0056b3',
   },
   contentContainer: {
     flex: 1,
@@ -267,27 +267,27 @@ const styles = StyleSheet.create({
   },
   editor: {
     flex: 1,
-    backgroundColor: '#1E293B',
+    backgroundColor: '#FFFFFF',
     borderRadius: 16,
     padding: 16,
-    color: '#F8FAFC',
+    color: '#333333',
     fontFamily: Platform.OS === 'ios' ? 'Menlo' : 'monospace',
     fontSize: 15,
     textAlignVertical: 'top',
     lineHeight: 22,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: '#CCE5FF',
   },
   outputScroll: {
     flex: 1,
-    backgroundColor: '#0F172A',
+    backgroundColor: '#F8FAFC',
     borderRadius: 16,
     padding: 16,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: '#CCE5FF',
   },
   outputText: {
-    color: '#10B981', // Emerald 500 for success-like output
+    color: '#0056b3',
     fontFamily: Platform.OS === 'ios' ? 'Menlo' : 'monospace',
     fontSize: 14,
     lineHeight: 20,

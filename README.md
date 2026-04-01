@@ -24,6 +24,7 @@ Codezy is a powerful code compiler platform. It allows users to write, run, and 
 ## 📂 Features
 
 - 🧑‍💻 Mobile Code Editor
+- 🌊 Solid light blue UI theme
 - 🔐 API Authentication
 - 📜 Execution History via MongoDB
 - ⚙️ Supports multiple programming languages
