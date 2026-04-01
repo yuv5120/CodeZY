@@ -1,66 +1,45 @@
-
 ### 📄 `README.md`
 
-# 🚀 Codezy - Online Code Compiler
+# 🚀 Codezy - Online Code Compiler Setup
 
-Codezy is a powerful, full-stack online code compiler inspired by platforms like CodeChef IDE.
-It allows users to write, run, and view the history of code executions.
-The app supports authentication, theme toggle, and a modern, clean UI.
+Codezy is a powerful code compiler platform. It allows users to write, run, and evaluate code executions. This repository contains the mobile application and the backend API handling authentication and execution.
 
 ## 🛠 Tech Stack Used
 
-### Frontend:
-- **Next.js 15** (App Router)
-- **Tailwind CSS** – for styling
-- **shadcn/ui** – prebuilt components
-- **lucide-react** – icons
+### Frontend (Mobile App):
+- **React Native (Expo)**
 - **TypeScript**
 
-### Backend & API:
-- **MongoDB Atlas** – for storing run history
-- **Mongoose** – ODM for MongoDB
-- **NextAuth.js** – for authentication
+### Backend & API (Next.js):
+- **Next.js 15 API Routes**
+- **MongoDB Atlas**
+- **Mongoose**
+- **NextAuth.js**
 
 ### Code Execution:
-- **Judge0 API** – to compile and execute code
-
-### Deployment:
-- **Vercel** – frontend/backend deployment
-- **GitHub** – version control & CI
-
----
-<img width="1440" alt="Screenshot 2025-05-30 at 9 41 11 AM" src="https://github.com/user-attachments/assets/f1e3d4e4-fc25-4f95-bf15-01c446a20e1e" />
-
----
-
-
-https://github.com/user-attachments/assets/84a3679f-29da-488c-88d1-6035358db4bc
-
-
-
+- **Judge0 API**
 
 ---
 
 ## 📂 Features
 
-- 🧑‍💻 Online Code Editor with syntax highlighting
-- 🔐 Google Authentication via NextAuth
-- 🌙 Light/Dark Theme toggle
-- 📜 Execution History stored in MongoDB
+- 🧑‍💻 Mobile Code Editor
+- 🔐 API Authentication
+- 📜 Execution History via MongoDB
 - ⚙️ Supports multiple programming languages
-- 💾 Code copy, share, and output view
+- 💾 Easy local deployment
 
 ---
 
-## 🧪 Local Setup Instructions (Optional)
+## 🧪 Local Setup Instructions
 
-If you want to run it locally:
+If you want to run the API locally:
 
 ```bash
 git clone https://github.com/yuv5120/Codezy.git
 cd Codezy
 npm install
-````
+```
 
 Create a `.env.local` file in the root and add:
 
@@ -74,23 +53,18 @@ JUDGE0_API_URL=https://judge0.p.rapidapi.com
 JUDGE0_API_KEY=your_api_key
 ```
 
-Then run:
+Then run the Next.js API server:
 
 ```bash
 npm run dev
 ```
 
----
-
-## 🚀 Deployment
-
-Codezy is deployed using **Vercel**.
-
-Steps:
-
-1. Connect GitHub repo to Vercel.
-2. Add environment variables in Vercel Dashboard.
-3. Trigger the deployment or push code to main branch.
+To run the mobile app:
+```bash
+cd mobile
+npm install
+npm run start
+```
 
 ---
 
